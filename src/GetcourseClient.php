@@ -76,6 +76,7 @@ class GetcourseClient
 			];
 		}
 
+        file_put_contents('/var/www/kub-24.ru/console/runtime/1.txt',serialize($content));
 		return new Response($content);
 	}
 }
