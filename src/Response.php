@@ -1,7 +1,9 @@
 <?php
 
 namespace Getcourse;
-
+/**
+ * 1
+ */
 class Response
 {
 	/**
